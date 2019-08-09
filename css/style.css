@@ -1,0 +1,39 @@
+#homeSlideshow
+{
+    height: 700px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body
+{
+    /*background-image: url("../images/background.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;*/
+    background: url("../images/background.jpg") repeat center center fixed;
+    background-color: white;
+}
+
+.banner-bg {
+    background: #1e1e1e url("../images/banner.png") no-repeat top center;
+}
+
+.footer-bg {
+    background-color: #1e1e1e;
+}
